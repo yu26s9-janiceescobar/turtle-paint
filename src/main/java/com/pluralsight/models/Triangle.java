@@ -6,13 +6,13 @@ import java.awt.*;
 
 public class Triangle extends Shape {
     private final int sides;
-    public Triangle(Turtle turtle, Point location, Color color, int border, int penWidth){
-        super(turtle,location, color, border, penWidth);
+    public Triangle(Turtle turtle, Point location, Color color, int border){
+        super(turtle,location, color, border);
         sides = 3;
     }
     public void paint(){
         getTurtle().setColor(getColor());
-        getTurtle().setPenWidth(getPenWidth());
+
 
         getTurtle().goTo(getLocation());
 

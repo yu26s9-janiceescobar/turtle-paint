@@ -5,12 +5,11 @@ import com.pluralsight.util.Turtle;
 import java.awt.*;
 
 public class Circle extends Shape {
-    public Circle(Turtle turtle, Point location, Color color, int border, int penWidth){
-        super(turtle, location, color, border, penWidth);
+    public Circle(Turtle turtle, Point location, Color color, int border){
+        super(turtle, location, color, border);
     }
     public void paint(){
         getTurtle().setColor(getColor());
-        getTurtle().setPenWidth(getPenWidth());
 
         getTurtle().goTo(getLocation());
 

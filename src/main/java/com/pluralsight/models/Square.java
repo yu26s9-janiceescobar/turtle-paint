@@ -6,15 +6,14 @@ import java.awt.*;
 
 public class Square extends Shape {
     private final int sides;
-    public Square(Turtle turtle, Point location, Color color, int border, int penWidth){
-        super(turtle, location, color, border, penWidth);
+    public Square(Turtle turtle, Point location, Color color, int border){
+        super(turtle, location, color, border);
         sides = 4;
 
     }
 
     public void paint(){
         getTurtle().setColor(getColor());
-        getTurtle().setPenWidth(getPenWidth());
         getTurtle().goTo(getLocation());
 
 
