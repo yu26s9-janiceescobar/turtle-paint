@@ -1,4 +1,4 @@
-package ui;
+package com.pluralsight.ui;
 import java.util.*;
 public class Console {
     public static Scanner scanner = new Scanner(System.in);

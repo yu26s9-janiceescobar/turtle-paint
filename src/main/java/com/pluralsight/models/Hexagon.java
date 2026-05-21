@@ -1,4 +1,6 @@
-package models;
+package com.pluralsight.models;
+
+import com.pluralsight.util.Turtle;
 
 import java.awt.*;
 
